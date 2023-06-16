@@ -4,13 +4,13 @@ import Backup from "../assets/images/backup.png"
 
 const Card = ({movie}) => {
 
-    const {id,title,overview,original_title,poster_path}=movie;
+    const {id,overview,original_title,poster_path}=movie;
 
-    const image = poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : Backup ;
+    const task = poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : Backup ;
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-3">
     <Link to={`/movie/${id}`}>
-      <img className="rounded-t-lg" src={image} alt="picture" />
+      <img className="rounded-t-lg" src={task} alt="picture" />
         </Link>
          <div className="p-5">
         <Link to={`/movie/${id}`}>
