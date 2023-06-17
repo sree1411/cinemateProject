@@ -65,7 +65,7 @@ const Header = () => {
               <NavLink to="/" className={({isactive})=> isactive ? activeClass:inActiveClass} aria-current="page" end>Home page.</NavLink>
             </li>
             <li>
-              <NavLink to="movie/popular" className={({isactive})=> isactive ? activeClass:inActiveClass}>Popular</NavLink>
+              <NavLink to="movie/popular" className={({isactive})=> isactive ? activeClass:inActiveClass}>Populars</NavLink>
             </li>
               <li>
                 <NavLink to="movie/top" className={({isactive})=> isactive ? activeClass:inActiveClass}>Top Rated</NavLink>
