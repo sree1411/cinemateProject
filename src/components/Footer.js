@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      footer pa
+      footer part of the page
     </div>
   )
 }
